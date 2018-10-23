@@ -14,7 +14,11 @@ def first_challenge
   }
 
   #your code here
-
+  contacts["Jon Snow"][:favorite_icecream_flavors]<< "mint chip"
+  puts contacts
+  contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
+  puts contacts
+  (first_challenge)["Freddy Mercury"][:favorite_icecream_flavors].delete_if("strawberry")
 
   #remember to return your newly altered contacts hash!
   contacts
